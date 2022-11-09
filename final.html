@@ -1,0 +1,38 @@
+<hmtl>
+<meta charset="utf-8">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyq-tsuNAuHK6rZwkdsiFhZkbSp-yzBN0"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <title>UK Towns Map</title>
+
+</head>
+
+<body>
+
+    <h1>Name: Midhun Rajan Renuka Devi</h1>
+    <h1>Student ID:2486745</h1>
+    <p>Plotting  UK towns JSON data on a Map</p>
+
+
+
+  <div>
+      <input type="range" min="1" max="500" step="1" value="50" class="slider" id="slider">
+      <br>
+      <p><font face= "Chivo">Move slider to chnage no of Towns: <span id="demo"></span></p>
+  </div>
+
+  <div id="option">
+    <input name="updateButton" class="updateButton"
+                 type="button"
+                value="Generate next set of Towns" />
+</div>
+
+<div id="map"></div>
+<script src = "map.js"></script>
+  <script src = "load.js"></script>
+
+</body>
+
+</html>
